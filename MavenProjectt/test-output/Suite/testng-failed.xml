@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="chromeTestng(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="pack.TNg_01">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- pack.TNg_01 -->
+    </classes>
+  </test> <!-- chromeTestng(failed) -->
+  <test name="firefoxTestng(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pack.TNg_01">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- pack.TNg_01 -->
+    </classes>
+  </test> <!-- firefoxTestng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
